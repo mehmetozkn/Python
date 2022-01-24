@@ -1,14 +1,14 @@
 
-def fac(sayi):
+def fac(num):
     faktoriyel = 1
-    if(sayi == 1):
+    if(num == 1):
         return 1
     else:
-        return sayi * fac(sayi - 1)
+        return num * fac(num - 1)
 
 
 
-sayi = input("Sayi : ")
-result = fac(sayi)
-print("Sonuc : {}".format(result))
+num = input("Number : ")
+result = fac(num)
+print("Result : {}".format(result))
     
